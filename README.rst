@@ -11,7 +11,7 @@ Using Clojure Templates
 There is a default template server defined that tries to load the file
 against the current directory, and returns the executed template.
 
-To set up a server, all that is required is::
+To set up a server, all that's required is::
 
     (use 'gulliver)
 
@@ -64,4 +64,4 @@ Todo
 - Performance.  Currently, a stat is done everytime a page is
   rendered; it should really on a variable expire.
 
-- Need to make it easier to access params and whatnot.
+- Need to make it easier to access params and what not.
